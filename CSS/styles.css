@@ -25,15 +25,7 @@ ul a:hover{
 	background-color: #e8491d;
 	position: relative;
 }
-.listDiv1{
-	width: 10%;
-	height:100%;
-	display: inline-block;
-	text-align: center;
-	vertical-align: middle;
-}
 .listDiv{
-	width: 10%;
 	height:100%;
 	display: inline-block;
 	text-align: center;
