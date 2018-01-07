@@ -1,3 +1,5 @@
+//function that keeps the "quick links" footer at the bottom of the page after you scroll
+
 $( document ).ready(function(){console.log( "Ready!" );
   var div = $("#footer");
   var pos = div.position();
