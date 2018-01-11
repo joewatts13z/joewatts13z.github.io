@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="CSS/styles.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="JS/JS.js"></script>
+<script type="text/javascript" src="JS/canvas.js"></script>
 </head>
 
 <body>
@@ -13,22 +14,22 @@
 <div class="topDiv">
 <div class="listDiv1">
 	<ul>
-    <li style="color:azure;"><a href="1-illenium.html">Home</a></li>
+    <li style="color:azure;"><a href="index.html">Home</a></li>
 	</ul>
 	</div>
 	<div class="listDiv">
   <ul>
-	<li style="color:azure;"><a href="3-Music.html">Music</a></li>
+	<li style="color:azure;"><a href="Music.html">Music</a></li>
 	</ul>
 	</div>
 	<div class="listDiv">
   <ul>
-	<li style="color:azure;"><a href="4-Tours.html">Tours</a></li>
+	<li style="color:azure;"><a href="Social.html">Social</a></li>
 	</ul>
 	</div>
 	<div class="listDiv">
   <ul>
-	<li style="color:azure;"><a href="5-Shop.html">Shop</a></li>
+	<li style="color:azure;"><a href="Shop.html">Shop</a></li>
     </ul>
 	</div>
 	<div class="listDiv">
@@ -41,6 +42,16 @@
 </div>
 </header>
 
+<div style="padding-top: 30px;">
+<canvas id = "canvas" height="1000px" width="700px" style="background: url(Assets/canvasShirt.png);"></canvas>
+<div class = "nav" style="padding-bottom: 100px;">
+<button id="clearBtn">Clear Area</button>
+<button id="saveBtn">Save</button>
+<button id="loadBtn">Load</button>
+<input id="selWidth" type="range" min="1" max="20" value="1">
+<input id="selColour" type="color" value="#222222">
+</div>
+</div>
 
 
 <div id="footer" class="bfrScroll">
